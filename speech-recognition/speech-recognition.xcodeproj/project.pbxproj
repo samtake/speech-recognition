@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE94ABC223113C1100BAF2FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94ABC123113C1100BAF2FE /* AppDelegate.m */; };
+		BE94ABC523113C1100BAF2FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94ABC423113C1100BAF2FE /* ViewController.m */; };
+		BE94ABC823113C1100BAF2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE94ABC623113C1100BAF2FE /* Main.storyboard */; };
+		BE94ABCA23113C1400BAF2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE94ABC923113C1400BAF2FE /* Assets.xcassets */; };
+		BE94ABCD23113C1400BAF2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE94ABCB23113C1400BAF2FE /* LaunchScreen.storyboard */; };
+		BE94ABD023113C1400BAF2FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94ABCF23113C1400BAF2FE /* main.m */; };
+		BEF2EDDC235D9BBF00A0075B /* WGSpeechTalkView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDCC235D9BBF00A0075B /* WGSpeechTalkView.m */; };
+		BEF2EDDD235D9BBF00A0075B /* WGSpeechTouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDCD235D9BBF00A0075B /* WGSpeechTouchButton.m */; };
+		BEF2EDDE235D9BBF00A0075B /* WGBaseSpeechRecController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDCE235D9BBF00A0075B /* WGBaseSpeechRecController.m */; };
+		BEF2EDDF235D9BBF00A0075B /* CustomDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDD0235D9BBF00A0075B /* CustomDrawingView.m */; };
+		BEF2EDE0235D9BBF00A0075B /* DrawingColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDD1235D9BBF00A0075B /* DrawingColor.m */; };
+		BEF2EDE1235D9BBF00A0075B /* DrawingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDD3235D9BBF00A0075B /* DrawingStyle.m */; };
+		BEF2EDE2235D9BBF00A0075B /* DrawRectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDD8235D9BBF00A0075B /* DrawRectObject.m */; };
+		BEF2EDE3235D9BBF00A0075B /* WGThreeWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDD9235D9BBF00A0075B /* WGThreeWaveView.m */; };
+		BEF2EDE4235D9BBF00A0075B /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDDB235D9BBF00A0075B /* WaveView.m */; };
+		BEF2EDE8235D9D4000A0075B /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDE7235D9D4000A0075B /* UIView+SetRect.m */; };
+		BEF2EDEE235D9FE100A0075B /* WGRightImgBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDEC235D9FE000A0075B /* WGRightImgBtn.m */; };
+		BEF2EDF1235DA04C00A0075B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2EDF0235DA04C00A0075B /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE94ABBD23113C1100BAF2FE /* speech-recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "speech-recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE94ABC023113C1100BAF2FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE94ABC123113C1100BAF2FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE94ABC323113C1100BAF2FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE94ABC423113C1100BAF2FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE94ABC723113C1100BAF2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE94ABC923113C1400BAF2FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE94ABCC23113C1400BAF2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE94ABCE23113C1400BAF2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE94ABCF23113C1400BAF2FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEF2EDC9235D9BBF00A0075B /* WGSpeechTouchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGSpeechTouchButton.h; sourceTree = "<group>"; };
+		BEF2EDCA235D9BBF00A0075B /* WGSpeechTalkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGSpeechTalkView.h; sourceTree = "<group>"; };
+		BEF2EDCB235D9BBF00A0075B /* WGBaseSpeechRecController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGBaseSpeechRecController.h; sourceTree = "<group>"; };
+		BEF2EDCC235D9BBF00A0075B /* WGSpeechTalkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGSpeechTalkView.m; sourceTree = "<group>"; };
+		BEF2EDCD235D9BBF00A0075B /* WGSpeechTouchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGSpeechTouchButton.m; sourceTree = "<group>"; };
+		BEF2EDCE235D9BBF00A0075B /* WGBaseSpeechRecController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGBaseSpeechRecController.m; sourceTree = "<group>"; };
+		BEF2EDD0235D9BBF00A0075B /* CustomDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDrawingView.m; sourceTree = "<group>"; };
+		BEF2EDD1235D9BBF00A0075B /* DrawingColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingColor.m; sourceTree = "<group>"; };
+		BEF2EDD2235D9BBF00A0075B /* DrawRectObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectObject.h; sourceTree = "<group>"; };
+		BEF2EDD3235D9BBF00A0075B /* DrawingStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingStyle.m; sourceTree = "<group>"; };
+		BEF2EDD4235D9BBF00A0075B /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		BEF2EDD5235D9BBF00A0075B /* WGThreeWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGThreeWaveView.h; sourceTree = "<group>"; };
+		BEF2EDD6235D9BBF00A0075B /* CustomDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDrawingView.h; sourceTree = "<group>"; };
+		BEF2EDD7235D9BBF00A0075B /* DrawingColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingColor.h; sourceTree = "<group>"; };
+		BEF2EDD8235D9BBF00A0075B /* DrawRectObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectObject.m; sourceTree = "<group>"; };
+		BEF2EDD9235D9BBF00A0075B /* WGThreeWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGThreeWaveView.m; sourceTree = "<group>"; };
+		BEF2EDDA235D9BBF00A0075B /* DrawingStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingStyle.h; sourceTree = "<group>"; };
+		BEF2EDDB235D9BBF00A0075B /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		BEF2EDE6235D9D4000A0075B /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		BEF2EDE7235D9D4000A0075B /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		BEF2EDEC235D9FE000A0075B /* WGRightImgBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGRightImgBtn.m; sourceTree = "<group>"; };
+		BEF2EDED235D9FE100A0075B /* WGRightImgBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGRightImgBtn.h; sourceTree = "<group>"; };
+		BEF2EDEF235DA04C00A0075B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BEF2EDF0235DA04C00A0075B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE94ABBA23113C1100BAF2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE94ABB423113C1100BAF2FE = {
+			isa = PBXGroup;
+			children = (
+				BE94ABBF23113C1100BAF2FE /* speech-recognition */,
+				BE94ABBE23113C1100BAF2FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE94ABBE23113C1100BAF2FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE94ABBD23113C1100BAF2FE /* speech-recognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE94ABBF23113C1100BAF2FE /* speech-recognition */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2EDE5235D9D3000A0075B /* Others */,
+				BEF2EDC8235D9BBF00A0075B /* speechRecognition */,
+				BE94ABC023113C1100BAF2FE /* AppDelegate.h */,
+				BE94ABC123113C1100BAF2FE /* AppDelegate.m */,
+				BE94ABC323113C1100BAF2FE /* ViewController.h */,
+				BE94ABC423113C1100BAF2FE /* ViewController.m */,
+				BE94ABC623113C1100BAF2FE /* Main.storyboard */,
+				BE94ABC923113C1400BAF2FE /* Assets.xcassets */,
+				BE94ABCB23113C1400BAF2FE /* LaunchScreen.storyboard */,
+				BE94ABCE23113C1400BAF2FE /* Info.plist */,
+				BE94ABCF23113C1400BAF2FE /* main.m */,
+			);
+			path = "speech-recognition";
+			sourceTree = "<group>";
+		};
+		BEF2EDC8235D9BBF00A0075B /* speechRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2EDC9235D9BBF00A0075B /* WGSpeechTouchButton.h */,
+				BEF2EDCD235D9BBF00A0075B /* WGSpeechTouchButton.m */,
+				BEF2EDCA235D9BBF00A0075B /* WGSpeechTalkView.h */,
+				BEF2EDCC235D9BBF00A0075B /* WGSpeechTalkView.m */,
+				BEF2EDCB235D9BBF00A0075B /* WGBaseSpeechRecController.h */,
+				BEF2EDCE235D9BBF00A0075B /* WGBaseSpeechRecController.m */,
+				BEF2EDCF235D9BBF00A0075B /* DrawRectObject */,
+			);
+			path = speechRecognition;
+			sourceTree = "<group>";
+		};
+		BEF2EDCF235D9BBF00A0075B /* DrawRectObject */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2EDD0235D9BBF00A0075B /* CustomDrawingView.m */,
+				BEF2EDD1235D9BBF00A0075B /* DrawingColor.m */,
+				BEF2EDD2235D9BBF00A0075B /* DrawRectObject.h */,
+				BEF2EDD3235D9BBF00A0075B /* DrawingStyle.m */,
+				BEF2EDD4235D9BBF00A0075B /* WaveView.h */,
+				BEF2EDD5235D9BBF00A0075B /* WGThreeWaveView.h */,
+				BEF2EDD6235D9BBF00A0075B /* CustomDrawingView.h */,
+				BEF2EDD7235D9BBF00A0075B /* DrawingColor.h */,
+				BEF2EDD8235D9BBF00A0075B /* DrawRectObject.m */,
+				BEF2EDD9235D9BBF00A0075B /* WGThreeWaveView.m */,
+				BEF2EDDA235D9BBF00A0075B /* DrawingStyle.h */,
+				BEF2EDDB235D9BBF00A0075B /* WaveView.m */,
+			);
+			path = DrawRectObject;
+			sourceTree = "<group>";
+		};
+		BEF2EDE5235D9D3000A0075B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2EDEF235DA04C00A0075B /* UIView+Frame.h */,
+				BEF2EDF0235DA04C00A0075B /* UIView+Frame.m */,
+				BEF2EDED235D9FE100A0075B /* WGRightImgBtn.h */,
+				BEF2EDEC235D9FE000A0075B /* WGRightImgBtn.m */,
+				BEF2EDE6235D9D4000A0075B /* UIView+SetRect.h */,
+				BEF2EDE7235D9D4000A0075B /* UIView+SetRect.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE94ABBC23113C1100BAF2FE /* speech-recognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE94ABD323113C1400BAF2FE /* Build configuration list for PBXNativeTarget "speech-recognition" */;
+			buildPhases = (
+				BE94ABB923113C1100BAF2FE /* Sources */,
+				BE94ABBA23113C1100BAF2FE /* Frameworks */,
+				BE94ABBB23113C1100BAF2FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "speech-recognition";
+			productName = "speech-recognition";
+			productReference = BE94ABBD23113C1100BAF2FE /* speech-recognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE94ABB523113C1100BAF2FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "黄龙山";
+				TargetAttributes = {
+					BE94ABBC23113C1100BAF2FE = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = BE94ABB823113C1100BAF2FE /* Build configuration list for PBXProject "speech-recognition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE94ABB423113C1100BAF2FE;
+			productRefGroup = BE94ABBE23113C1100BAF2FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE94ABBC23113C1100BAF2FE /* speech-recognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE94ABBB23113C1100BAF2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE94ABCD23113C1400BAF2FE /* LaunchScreen.storyboard in Resources */,
+				BE94ABCA23113C1400BAF2FE /* Assets.xcassets in Resources */,
+				BE94ABC823113C1100BAF2FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE94ABB923113C1100BAF2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF2EDDF235D9BBF00A0075B /* CustomDrawingView.m in Sources */,
+				BEF2EDEE235D9FE100A0075B /* WGRightImgBtn.m in Sources */,
+				BE94ABC523113C1100BAF2FE /* ViewController.m in Sources */,
+				BEF2EDF1235DA04C00A0075B /* UIView+Frame.m in Sources */,
+				BEF2EDE3235D9BBF00A0075B /* WGThreeWaveView.m in Sources */,
+				BEF2EDE1235D9BBF00A0075B /* DrawingStyle.m in Sources */,
+				BEF2EDDE235D9BBF00A0075B /* WGBaseSpeechRecController.m in Sources */,
+				BEF2EDE2235D9BBF00A0075B /* DrawRectObject.m in Sources */,
+				BEF2EDDD235D9BBF00A0075B /* WGSpeechTouchButton.m in Sources */,
+				BEF2EDE0235D9BBF00A0075B /* DrawingColor.m in Sources */,
+				BE94ABD023113C1400BAF2FE /* main.m in Sources */,
+				BEF2EDE8235D9D4000A0075B /* UIView+SetRect.m in Sources */,
+				BEF2EDDC235D9BBF00A0075B /* WGSpeechTalkView.m in Sources */,
+				BE94ABC223113C1100BAF2FE /* AppDelegate.m in Sources */,
+				BEF2EDE4235D9BBF00A0075B /* WaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE94ABC623113C1100BAF2FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE94ABC723113C1100BAF2FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE94ABCB23113C1400BAF2FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE94ABCC23113C1400BAF2FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE94ABD123113C1400BAF2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE94ABD223113C1400BAF2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE94ABD423113C1400BAF2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "speech-recognition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samtake.speech-recognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE94ABD523113C1400BAF2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "speech-recognition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samtake.speech-recognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE94ABB823113C1100BAF2FE /* Build configuration list for PBXProject "speech-recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE94ABD123113C1400BAF2FE /* Debug */,
+				BE94ABD223113C1400BAF2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE94ABD323113C1400BAF2FE /* Build configuration list for PBXNativeTarget "speech-recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE94ABD423113C1400BAF2FE /* Debug */,
+				BE94ABD523113C1400BAF2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE94ABB523113C1100BAF2FE /* Project object */;
+}
